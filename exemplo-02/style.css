@@ -9,6 +9,11 @@ header {
     text-align: center;
 }
 
+header:hover {
+    color: red;
+
+}
+
 main {
     background-color: white;
     border-radius: 10px;
@@ -41,8 +46,6 @@ main form input#enviar:hover {
     filter: brightness(1.2);
     transition: 0.3s;
 }
-
-
 
 div {
     padding: 12px;
