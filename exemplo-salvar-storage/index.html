@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de uso da storage</title>
+    <style>
+      div {
+        border: 1px solid;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        width: 100px;
+      }
+      div p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Tenis Nike</h2>
+      <img src="./assets/tenis-nike.jpg" alt="" />
+      <h3>R$ <span id="valorTenisNike">359.99<span></h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+        doloremque.
+      </p>
+      <div id="containerQtd">
+        <input type="number" value="0" />
+        <button>Adicionar carrinho</button>
+      </div>
+
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/storage.js"></script>
+
+    <button id="finalizarCompra">Finalizar compra</button>
+  </body>
+</html>
